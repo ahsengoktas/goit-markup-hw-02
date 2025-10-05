@@ -3,27 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <title>Web Studio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="/">WEBSTUDIO</a>
-      <nav>
+    <header class="header">
+      <a href="/" class="logo">
+        <span class="web">WEB</span><span class="studio">STUDIO</span>
+      </a>
+      <nav class="nav">
         <a href="#studio">Studio</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#contacts">Contacts</a>
       </nav>
-      <address>
+      <address class="contacts">
         <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         <a href="te:+110001111111">+11 (000) 111-11-11</a>
       </address>
     </header>
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Servis</button>
+      <section class="main-page">
+        <h1 class="page-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="btn">
+          <p class="btn-text">Order Service</p>
+        </button>
       </section>
       <section>
-        <ul>
+        <ul class="values-list">
           <li>
             <h3>Strategy</h3>
             <p>
@@ -55,9 +68,9 @@
         </ul>
       </section>
 
-      <section>
+      <section class="our-team">
         <h2>Our Team</h2>
-        <ul>
+        <ul class="team">
           <li>
             <img
               src="./images/product-designer.jpg"
@@ -67,7 +80,6 @@
             />
             <h3>Mark Guerrero</h3>
             <p>Product Designer</p>
-            ‚
           </li>
           <li>
             <img
@@ -101,9 +113,76 @@
           </li>
         </ul>
       </section>
+      <section class="our-portfolio">
+        <h2>Our Portfolio</h2>
+        <ul class="portfolio-list">
+          <li>
+            <img
+              src="./images/bankingapp.jpg"
+              alt="Banking App"
+              width="360"
+              height="300"
+            />
+            <h3>Banking App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/cashless.jpg"
+              alt="Cashless Payment"
+              width="360"
+              height="300"
+            />
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/meditionappp.jpg"
+              alt="Meditation App"
+              width="360"
+              height="300"
+            />
+            <h3>Meditation App</h3>
+            <p>App</p>
+          </li>
+          <li>
+            <img
+              src="./images/taxiserviceee.jpg"
+              alt="Taxi Service"
+              width="360"
+              height="300"
+            />
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/screen illustrations.jpg"
+              alt="Screen Illustrations"
+              width="360"
+              height="300"
+            />
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            <img
+              src="./images/online courses.jpg"
+              alt="Online Courses"
+              width="360"
+              height="300"
+            />
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+          </li>
+        </ul>
+      </section>
     </main>
-    <footer>
-      <a href="/">WEBSTUDIO</a>
+    <footer class="finish">
+      <a href="/" class="logo">
+        <span class="web">WEB</span><span class="second">STUDIO</span>
+      </a>
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
